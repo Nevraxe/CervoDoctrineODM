@@ -1,0 +1,41 @@
+{
+  "name": "nevraxe/cervo-doctrine-odm",
+  "description": "Doctrine MongoDB ODM integration for Cervo.",
+  "type": "library",
+  "keywords": [
+    "PHP",
+    "Framework",
+    "Cervo",
+    "Doctrine",
+    "ODM",
+    "MongoDB"
+  ],
+  "homepage": "https://github.com/Nevraxe/CervoDoctrineODM",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nevraxe inc.",
+      "email": "info@nevraxe.com",
+      "homepage": "https://nevraxe.com"
+    },
+    {
+      "name": "Marc André Audet",
+      "email": "maudet@nevraxe.com",
+      "homepage": "https://blog.maaudet.ca"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Nevraxe/CervoDoctrineODM/issues"
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cervo\\DoctrineODM\\": "src/Cervo/DoctrineODM"
+    }
+  }
+}
